@@ -1,5 +1,4 @@
 .header {
-  /* border: 2px solid red; */
   display: grid;
   margin-bottom: 84px;
   grid-template-columns: 1fr 1fr;
@@ -12,23 +11,22 @@
 }
 
 @media (max-width: 900px) {
-  .header  {
+  .header {
     grid-template-columns: 2fr 1fr;
     gap: 16px 70px;
     margin-bottom: 56px;
-    /* margin: 0 16px 40px; */
   }
 }
 
 @media (max-width: 768px) {
-  .header  {
+  .header {
     gap: 1px 1px;
     grid-template-rows: 43% 57%;
   }
-} 
+}
 
 @media (min-width: 320px) and (max-width: 500px) {
-  .header  {
+  .header {
     display: flex;
     height: 382px;
     width: 320px;

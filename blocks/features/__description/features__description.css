@@ -32,7 +32,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
-  .features__description  {
+  .features__description {
     margin-bottom: 32px;
     max-width: 288px;
   }

@@ -1,16 +1,14 @@
 .more-info {
-    /* border: 2px solid red; */
-    margin-left: 48px;
-    display: flex;
-    flex-direction: column;
-    min-height: 280px;
+  margin-left: 48px;
+  display: flex;
+  flex-direction: column;
+  min-height: 280px;
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
-    .more-info {
-      width: 288px;
-align-items: center;
-margin: 0 auto;
-    }
+  .more-info {
+    width: 288px;
+    align-items: center;
+    margin: 0 auto;
   }
-
+}

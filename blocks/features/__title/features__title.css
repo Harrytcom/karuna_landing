@@ -9,38 +9,28 @@
   margin: 0 0 20px 0;
 }
 
-/* @media (min-width: 1024px) {
-  .features__title  {
-    max-width: 224px;
-  }
-} */
-
 @media (max-width: 1300px) {
-  .features__title  {
+  .features__title {
     max-width: 224px;
   }
 }
 
- @media (max-width: 900px) {
-  .features__title  {
+@media (max-width: 900px) {
+  .features__title {
     max-width: 247px;
     font-size: 18px;
-    /* margin: 0; */
   }
 }
 
 @media (max-width: 768px) {
-  .features__title  {
+  .features__title {
     margin-bottom: 16px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 500px) {
-  .features__title  {
+  .features__title {
     margin-bottom: 16px;
     max-width: 288px;
   }
 }
-
-
-

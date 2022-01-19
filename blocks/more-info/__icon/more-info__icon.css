@@ -1,11 +1,7 @@
 .more-info__icon {
-    background-image: url(../../../images/arrow.png);
-    width: 18px;
-    height: 14px;
-    margin-left: 11px;
-    transition: ease-in-out .4s;
+  background-image: url(../../../images/arrow.png);
+  width: 18px;
+  height: 14px;
+  margin-left: 11px;
+  transition: ease-in-out 0.4s;
 }
-
-/* .more-info__icon:hover {
-    transform: translate3d(18px, 0, 0);
-} */
