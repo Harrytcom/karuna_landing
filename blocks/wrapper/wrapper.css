@@ -1,0 +1,8 @@
+.wrapper {
+    background-image: url(../../images/background-image-2.png), url(../../images/background-image-1.png);
+    background-color: #2A2B30;
+    background-repeat: no-repeat, no-repeat;
+    /* background-position: bottom right, left, right; */
+    background-position: right bottom, left top;
+    background-size: 70%, 60%;
+}

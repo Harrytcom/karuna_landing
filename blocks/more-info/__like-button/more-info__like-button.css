@@ -1,0 +1,23 @@
+.more-info__like-button {
+  background: url(../../../images/like-inactive.svg);
+  height: 32px;
+  width: 32px;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: visible;
+  background-repeat: no-repeat;
+}
+
+.more-info__like-button:active {
+  background: url(../../../images/like-active.svg);
+  height: 32px;
+  width: 32px;
+  border-radius: 0px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: visible;
+  background-repeat: no-repeat;
+}
