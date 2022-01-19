@@ -1,0 +1,20 @@
+.more-info__like-button_is-active {
+    background: url(../../../../images/like-active.svg);
+    height: 32px;
+    width: 32px;
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    overflow: visible;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 900px) {
+    .more-info__like-button_is-active {
+        background: url(../../../../images/like-active_S.svg);
+        height: 32px;
+        width: 32px;
+        background-repeat: no-repeat;
+    }
+  }

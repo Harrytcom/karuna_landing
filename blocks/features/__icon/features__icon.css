@@ -1,0 +1,72 @@
+/* .features__icon {
+    margin-bottom: 20px;
+} */
+
+.features__icon {
+  margin-bottom: 20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: #ffdd3c;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 900px) {
+  .features__icon {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+#star-icon {
+  background-image: url(../../../images/Star-icon_XL.svg);
+}
+
+#clock-icon {
+  background-image: url(../../../images/Clock-icon_XL.svg);
+}
+
+#prize-icon {
+  background-image: url(../../../images/Prize-icon_XL.svg);
+}
+
+#gift-icon {
+  background-image: url(../../../images/Gift-icon_XL.svg);
+}
+
+@media (max-width: 1024px) {
+  #star-icon {
+    background-image: url(../../../images/Star-icon_M.svg);
+  }
+
+  #clock-icon {
+    background-image: url(../../../images/Lightning-icon_M.svg);
+  }
+
+  #prize-icon {
+    background-image: url(../../../images/Bell-icon_M.svg);
+  }
+
+  #gift-icon {
+    background-image: url(../../../images/Heart-icon_M.svg);
+  }
+}
+
+@media (max-width: 768px) {
+  #star-icon {
+    background-image: url(../../../images/Star-icon_S.svg);
+  }
+
+  #clock-icon {
+    background-image: url(../../../images/Lightning-icon_S.svg);
+  }
+
+  #prize-icon {
+    background-image: url(../../../images/Bell-icon_S.svg);
+  }
+
+  #gift-icon {
+    background-image: url(../../../images/Heart-icon_S.svg);
+  }
+}

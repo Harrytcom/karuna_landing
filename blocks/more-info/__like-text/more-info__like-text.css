@@ -1,0 +1,15 @@
+.more-info__like-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #d1d4d7;
+  margin-left: 18px;
+}
+
+@media (max-width: 900px) {
+  .more-info__like-text {
+    font-size: 14x;
+  }
+}
