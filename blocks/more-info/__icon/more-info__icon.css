@@ -5,3 +5,9 @@
   margin-left: 11px;
   transition: ease-in-out 0.4s;
 }
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .more-info__icon {
+    display: none;
+  }
+}

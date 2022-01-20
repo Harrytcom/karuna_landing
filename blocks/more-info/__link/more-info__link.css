@@ -8,7 +8,7 @@
   text-align: center;
   margin-bottom: 52px;
   width: 442px;
-  height: 48px;
+  min-height: 48px;
   background: #ffdd3c;
   border-radius: 8px;
   text-decoration: none;

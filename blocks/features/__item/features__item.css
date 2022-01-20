@@ -2,3 +2,10 @@
   display: block;
   max-width: 304px;
 }
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    .features__item {
+        /* margin-right: 20px;
+        margin-bottom: 20px; */
+    }
+  }

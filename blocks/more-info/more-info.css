@@ -5,6 +5,12 @@
   min-height: 280px;
 }
 
+@media (max-width: 1024px) {
+  .more-info {
+    margin-left: 40px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 500px) {
   .more-info {
     width: 288px;

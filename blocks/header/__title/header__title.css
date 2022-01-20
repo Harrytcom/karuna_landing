@@ -32,10 +32,11 @@
     max-width: 353px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .header__title {
     font-size: 24px;
     max-width: 353px;
+    /* margin: 20px 0 0 40px; */
     margin: 80px 0 0 40px;
   }
 }
@@ -43,8 +44,9 @@
 @media (min-width: 320px) and (max-width: 500px) {
   .header__title {
     order: 2;
-    margin: 0 auto 16px;
-    width: 288px;
+    margin: 10px auto 16px;
+    width: 286px;
     overflow: visible;
+    margin: 24px auto 16px;
   }
 }
